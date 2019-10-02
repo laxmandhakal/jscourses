@@ -1,3 +1,4 @@
+//to display time 33m33s in format {minutes:33,seconds:33}
 var time = "33m33s"
 
 function calculateTime(str) {
