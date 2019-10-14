@@ -1,7 +1,7 @@
 // task part
 function askForNote(topic) {
     console.log('friend received call and insit to callback after he finds note');
-    return new Promise(function(resolve, reject) {
+    return  new Promise(function(resolve, reject) {
         setTimeout(function() {
             console.log('note found after 2 hour');
             resolve({

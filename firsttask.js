@@ -1,4 +1,4 @@
-var k = ['apple', 'banana', 'orange', 'kiwi', 'pineappl', 'banana', 'apple', 'banana', 'orange', 'banana', 'apple', 'banana', 'orange', 'banana']
+var k = ['apple', 'banana', 'orange', 'kiwi', 'pineappl','hghg', 'banana', 'apple', 'banana', 'orange', 'banana', 'apple', 'banana', 'orange', 'banana']
 
 
 // 1st task
@@ -9,7 +9,6 @@ function lax(fruits) {
     uniq.unshift(x);
     fruits.forEach(function(item) {
         let t = 0;
-        ``
         uniq.forEach(function(items) {
 
             if (items == item) {
@@ -21,6 +20,6 @@ function lax(fruits) {
         }
     })
     uniq.pop();
-    console.log(uniq);
+    return uniq
 }
-lax(k);
+console.log(lax(k));

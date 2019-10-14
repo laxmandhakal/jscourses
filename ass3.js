@@ -13,10 +13,7 @@ function calculateTime(str) {
     second = Number(k[0])
     ab.minutes = minute
     ab.seconds = second
-
-
-
-    return ab;
+return ab;
 
 }
 console.log(calculateTime(time));

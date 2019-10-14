@@ -3,7 +3,6 @@ var fruits = ['apple', 'banana', 'orange', 'kiwi', 'pineappl', 'banana', 'apple'
 var a = {}
 fruits.forEach(function(item) {
     let t = 0;
-    ``
     fruits.forEach(function(items) {
 
         if (item == items) {
