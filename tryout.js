@@ -28,15 +28,18 @@ var res = {
     }]
 }*/
 function groupBy(arr, prop) {
-  let  store = {};
-   let ext = arr.filter(function(tem, index) {
-    let    next = arr.filter(function(item, index) {
-            if (item[prop] == tem[prop]) {
-
-                return item;
+    let store = {};
+    let narr = [];
+    let next = arr.filter(function(item, index) {
+        for (i = 0; i < arr.length; i++) {
+            arr[i]
+            if (arr[i][prop] == item[prop]) {
+                narr.push(arr[i])
             }
-        })
-        store[tem[prop]] = next;
+        }
+        store[item[prop]] = narr
+
+
     })
     return store;
 }
@@ -62,4 +65,4 @@ var students = [{
     section: "B",
     faculty: "science"
 }]
-console.log("output for groupBy is>>",groupBy(students, "name"));
+console.log("output for groupBy is>>", groupBy(students, "section"));
