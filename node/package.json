@@ -1,0 +1,14 @@
+{
+  "name": "kishor",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "test": "d"
+  },
+  "author": "kishor",
+  "license": "ISC",
+  "dependencies": {
+    "ngx-toastr": "^11.1.0"
+  }
+}
