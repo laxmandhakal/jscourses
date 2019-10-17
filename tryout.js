@@ -65,4 +65,4 @@ var students = [{
     section: "B",
     faculty: "science"
 }]
-console.log("output for groupBy is>>", groupBy(students, "section"));
+console.log("output for groupBy is>>", groupBy(students, "faculty"));
