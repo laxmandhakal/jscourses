@@ -1,3 +1,5 @@
+//important theory 
+
 // function buyMobile(model) {
 //     console.log('i am at mobile shop');
 //     console.log('shopkeeper insist me to wait 2 hours');
@@ -24,9 +26,10 @@
 
 // function that accepts another function as parameter is higher order function in javascript
 // task part /////
-function takeSelfie(){
-	console.log('selfie taken');
+function takeSelfie() {
+    console.log('selfie taken');
 }
+
 function askMoney(amt, callback) {
     // console.log('what comes in >>', callback);
     console.log('mom told me to wait for few days till salary arrived')
@@ -70,4 +73,3 @@ console.log('go to college');
 // buy ko kaam
 
 // ask money
-

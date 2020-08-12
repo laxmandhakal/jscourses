@@ -1,5 +1,6 @@
-// git is version control tool used in development to track files and maintain code base
+// theory
 
+// git is version control tool used in development to track files and maintain code base
 // git commad
 // git --version // check version of git
 // git init // initialize .git folder in your project folder to start tracking
@@ -31,4 +32,3 @@
 // students end
 // go to cloned directory
 // git pull (it will pull chagnes from remote)
-

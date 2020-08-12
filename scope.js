@@ -1,5 +1,6 @@
-// scope is visibility (accessibilty) of memory allcoation(var,const, function and function argument)
+// theory
 
+// scope is visibility (accessibilty) of memory allcoation(var,const, function and function argument)
 // scope have three types
 // global scope
 // local scope (functional scope)
@@ -42,7 +43,7 @@ function welcome(name) {
         console.log('text in esle ', text);
 
     }
-   
+
     console.log('text now after if else', text);
 
 }

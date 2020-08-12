@@ -1,3 +1,5 @@
+// important theory
+
 // data type is classification of data
 // primitive data type
 // String // any single quote ('') or double quote("") enclosed value are string
@@ -33,9 +35,9 @@ var hobbies = 'coding,debugging,testing';
 // 2.bracket notation
 var hobbies = new Array(); // constructor syntax
 var inrests = [] // bracket notation 
-var bikes = ['yamaha', 'honda', 'xyz',3333,true,[]];
-console.log('bikes >>>',bikes);
-console.log('bikes index >>',bikes[1]);
+var bikes = ['yamaha', 'honda', 'xyz', 3333, true, []];
+console.log('bikes >>>', bikes);
+console.log('bikes index >>', bikes[1]);
 // array in javascript is hetregenous array
 // data type can be diffrent
 // array sang sangai aaune kura vaneko index ho
@@ -54,23 +56,23 @@ console.log('bikes index >>',bikes[1]);
 // constructor syntax
 // bracket notation
 var ram = new Object(); // constructor syntax
-var shyam  ={}; // bracket notation
+var shyam = {}; // bracket notation
 //
 var brodway = {
-	name:'bordway infosys nepal', //name is key string is value 
-	email :'brodway@gmail.com',
-	phone:33333,
-	address:['tinkune','pokhara','usa'],
-	name:'hi'
+    name: 'bordway infosys nepal', //name is key string is value 
+    email: 'brodway@gmail.com',
+    phone: 33333,
+    address: ['tinkune', 'pokhara', 'usa'],
+    name: 'hi'
 }
-brodway.name ='hello and welcome';
+brodway.name = 'hello and welcome';
 brodway.xzy = 'new value'
-// accessing property of object
-// two way of accessing property of object
-// dot notation and bracket notation
-// console.log('value of object ',brodway.address);
-// bracket notation use bracket notation to work with refrences
-console.log('value of objec tin bracket notation',brodway);
+    // accessing property of object
+    // two way of accessing property of object
+    // dot notation and bracket notation
+    // console.log('value of object ',brodway.address);
+    // bracket notation use bracket notation to work with refrences
+console.log('value of objec tin bracket notation', brodway);
 
 //code base will be function
-// 
+//

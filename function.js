@@ -1,7 +1,7 @@
+//theory 
+
 // function
-
 // function is reusuable block of code  that perfoms specific task.
-
 // syntax 
 // function() {
 

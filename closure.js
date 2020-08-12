@@ -1,10 +1,11 @@
+// important theory
+
 // // closure is an inner function  which has access to
 // // 1 global scope
 // // 2 parent function argument
 // // 3 parent function scope
 // // 4 own argument
 // // 5 own scope
-
 // var welcome = 'welcome';
 
 // function warmWelcome(name) {
@@ -36,11 +37,12 @@ function welcome(name) {
         return innerMsg;
     }
 
-    function test(){
+    function test() {
 
     }
-    function hi(){
-    	
+
+    function hi() {
+
     }
     // var innerRes = setPlace('butwal');
     // console.log('innerRes >>', innerRes);
@@ -55,4 +57,4 @@ console.log('what comes out .>>', res);
 // prepare a functin to multiply two numbers 
 
 var res = multiply(3)(3)(3);
-console.log('res >>>',res) // should print 27;
+console.log('res >>>', res) // should print 27;
