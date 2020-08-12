@@ -1,3 +1,5 @@
+// theory 
+
 // promise
 // promise is an object that represents future result value
 // promise has 3 state
