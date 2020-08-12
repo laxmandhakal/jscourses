@@ -1,4 +1,4 @@
-//task to count number of items in array
+//task to count number of items in array and store in object
 var fruits = ['apple', 'banana', 'orange', 'kiwi', 'pineappl', 'banana', 'apple', 'banana', 'orange', 'banana', 'apple', 'banana', 'orange', 'banana']
 var a = {}
 fruits.forEach(function(item) {

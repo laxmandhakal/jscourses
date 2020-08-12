@@ -1,3 +1,4 @@
+// learning the use of forEach,map,filter in JS
 var mobiles = [{
     brand: 'samsung',
     model: 's10',
@@ -93,9 +94,3 @@ mobiles.forEach(function(item, i) {
     }
 })
 console.log('mobiles.lenght', mobiles.length)
-
-// optional task
-// buy s9 mobile using reduce
-
-// var res = mobiles.reduce();
-// s9 object

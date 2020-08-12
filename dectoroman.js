@@ -23,7 +23,7 @@ if (m == 2) {
     console.log("The required number is ")
     if (g[1] == 0 && g[2] == 0) {
         aa = w
-    } else(g[2] == 0) {
+    } else {
         aa = w + x
     }
     console.log(aa)

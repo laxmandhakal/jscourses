@@ -1,3 +1,6 @@
+//enter file in format /read/lax.txt to read
+//enter file in format /write/lax.txt/my name   to write
+//url localhost:9090/read/lax.txt to read
 var http = require("http");
 const {
     write,
@@ -16,7 +19,7 @@ var server = http.createServer(function(request, response) {
                 response.end("error in read>>")
 
             } else {
-                response.end("success in read>>")
+                response.end("success in read>>" + done)
 
             }
 
@@ -24,11 +27,11 @@ var server = http.createServer(function(request, response) {
     } else if (arr[1] == "write") {
         write(arr[2], arr[3])
             .then(function(data) {
-                response.end("success in write>>", data)
+                response.end("success in write>>")
 
             })
             .catch(function(data) {
-                response.end("error in write>>", data)
+                response.end("error in write>>")
             })
     } else {
         response.end("wrong entry in url")

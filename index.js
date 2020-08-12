@@ -96,8 +96,8 @@ multi line commnent
 // const keyword
 
 var name; //memory allocation
-console.log('name is >>',name) // undefined
+console.log('name is >>', name) // undefined
 var roll = 333;
-var status=  true;
+var status = true;
 
 const address = "ldksjf";
